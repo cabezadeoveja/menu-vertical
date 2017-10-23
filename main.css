@@ -1,0 +1,47 @@
+body{
+	font-family: sans-serif;
+}
+
+ul{
+	/*outline: 1px solid yellow;*/
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+	line-height: 24px;
+}
+
+li{
+	/*outline: 1px solid red;*/
+	background-color: #f5f5f0;
+}
+
+/*Estados de los enlaces: LoVe/HAte Link Visited Hover Active */
+
+a{
+	/*utline: 1px solid green;*/
+	display: block;
+	text-decoration: none;
+	color: #000000;
+	padding-left: 15px;
+}
+
+a:hover{ /*color plomo*/
+	background: #e0e0d1;
+}
+
+a:active{ /*para que se vuelva oscuro al presionar*/
+	background-color: #333;
+}
+
+ul li:first-child{
+	background-color: #FFA500; /*color naranjo*/
+}
+
+ul li:first-child a{
+	color: #ffffff;
+}
+
+ul li:first-child a:active{
+	color: #f5f5f0;
+}
